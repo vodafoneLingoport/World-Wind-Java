@@ -29,7 +29,8 @@ public class BasicDragger implements SelectListener
     {
         if (wwd == null)
         {
-            String msg = Logging.getMessage("nullValue.WorldWindow");
+          //  String msg = Logging.getMessage("nullValue.WorldWindow");
+            String msg = "hard coded string here";
             Logging.logger().severe(msg);
             throw new IllegalArgumentException(msg);
         }
